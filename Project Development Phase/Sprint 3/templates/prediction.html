@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Input</title>
+        <link rel="stylesheet" type="text/css" href="static/CSS/style6.css">
+    </head>
+    <body>
+        <label> 
+            <div class=" upload-box">
+                <form action="{{ url_for('upload') }}" method="POST"  enctype="multipart/form-data">
+                    <input type="file" name="file2" accept=".png, .jpg, .jpeg" >
+                    <button ><input type="submit" value="predict"></button>
+                </form>
+                </div>                                                                   
+           
+            
+        </label>
+    </body>
+</html>

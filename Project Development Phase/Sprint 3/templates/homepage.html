@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title></title>
+ <link rel="stylesheet" type="text/css" href="static/CSS/style2.css">
+ <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <!-- <img src="C:U/sers/LEGION/Desktop/IBM/img/medical.jpg"> -->
+ <div class="mainheader">
+  <nav>
+   <a href="{{url_for('home')}}">home</a>
+   <a href="{{ url_for('check') }}">Prediction</a>
+   <a href="{{url_for('images')}}">Images</a>
+   <a href="{{url_for('contact')}}">contact</a>
+   <a href="{{url_for('logout')}}">Logout</a>
+  </nav>
+
+  <div class="menubtn">
+   <button class="byn"> 
+    <a href="https://www.parkinson.org/resources-support/helpline#:~:text=Contact%20our%20Helpline%20at%201,answers%20to%20your%20Parkinson%27s%20questions.&text=Call%20the%20Parkinson%27s%20Foundation%20Helpline,Parkinson%27s%20disease%20(PD)%20questions">Helpline</a>
+   </button>
+   
+  </div>
+ </div>
+ 
+ <main>
+  <section class="left-sec">
+   <h2>Living with Parkinson's </h2>
+   <h1>  We Are Here For Your Care</h1>
+   <p id="har">Hope for a better tomorrow<p>
+   <p class="homep">For prediction upload Wave and Spiral images</p>
+<p class="homep">For reference images view Images page</p>
+   <button class="btn1">
+    <a href="{{url_for('explore')}}">Explore</a>
+   </button>
+  </section>
+  <section class="right-sec">
+  </section>
+ </main>
+</header>
+</body>
+</html>
