@@ -1,0 +1,82 @@
+body{
+       height:100vh;
+       background: black;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+  }
+
+
+  label{
+    position: relative;
+    color: #fff;
+
+  } */
+
+  
+  input[type="file"]{
+     border: none;
+     width: 400px;
+     height: 400px;
+     padding:0 15px;
+     text-decoration: none;
+     color: black;
+
+  }
+
+  button{
+    position:absolute;
+    top:0;
+    bottom:0;
+    right: 0;
+    background:linear-gradient(to right,#649bff,#0070fa,#649bff);
+    border-radius: 50px;
+    box-shadow: 1px 0 1px 1px #6b4559;
+    color:white;
+    padding: 0 15px;
+    letter-spacing:1.2px;
+    border:none;
+  } 
+  
+
+  #text{
+    color: #fff;
+
+  }
+
+span{
+    padding-right: 25px;
+    padding-top: 15px;
+}
+.upload-box{
+  font-size: 10px;
+  background: white;
+  border-radius: 50px;
+  box-shadow: 5px 5px 10px black;
+  width: 350px;
+  outline: none;
+  color: black;
+
+}
+::-webkit-file-upload-button{
+  color: white;
+  background:linear-gradient(to right,#649bff,#0070fa,#649bff);
+  padding: 20px;
+  border:none;
+  border-radius: 40px;
+  box-shadow: 1px 0 1px 1px #6b4559;
+  outline:none;
+}
+
+::-webkit-file-upload-button:hover{
+  background: #438a5e;
+}
+
+input .placeholder{
+  font-size: 60px;
+}
+
+
+
+
+
